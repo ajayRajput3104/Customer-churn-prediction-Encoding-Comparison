@@ -16,7 +16,6 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 └── README.md # This file
 ```
 
-```
 ---
 
 ## 📊 Dataset Overview
@@ -102,7 +101,6 @@ Located in: `outputs/confusion_matrices/`
 - Mixed Encoding
 
 ---
-```
 ## 🛠️ How to Run
 
 1. Clone the repo:
@@ -130,6 +128,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
