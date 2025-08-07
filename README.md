@@ -7,10 +7,10 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 ## 📁 Project Structure
 ```
 │
-├── Telco_Customer_Churn.ipynb                # Main notebook with code, EDA, model training & evaluation
+├── customerchurn.ipynb                # Main notebook with code, EDA, model training & evaluation
 ├── data/
 │ └── WA_Fn-UseC_-Telco-Customer-Churn.csv    # Original dataset from Kaggle
-├── outputs/
+├── Outputs/
 │ ├── Comparison Plots/                       # Bar plots comparing precision, recall, f1, accuracy
 │ ├── Confusion Matrices/                     # Confusion matrices for each model
 │ └── Models/                                 # All trained model saved as .json
@@ -25,7 +25,8 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 - **Rows**: 7043 customers  
 - **Columns**: 21 features including:
   - **Demographic**: Gender, SeniorCitizen, Partner, Dependents
-  - **Service**: InternetService, StreamingTV, OnlineSecurity, etc.
+  - **Service**: OnlineSecurity, OnlineBackup, DeviceProtection,
+                TechSupport, StreamingTV, StreamingMovies
   - **Account**: Tenure, MonthlyCharges, TotalCharges, PaymentMethod
   - **Target**: `Churn` (0 = No, 1 = Yes)
 
@@ -83,7 +84,25 @@ To evaluate how different encoding methods affect the predictive performance of 
 
 ## 📸 Visual Outputs
 
-> All plots are saved in the `outputs/` folder.
+### 📌 Bar Graphs for Encoding Comparison 
+
+| Metric         | Plot |
+|----------------|------|
+| F1 Score       | ![](Outputs\Comparison_Plots\f1_score_comparison.png) |
+| Precision      | ![](Outputs\Comparison_Plots\precision_comparison.png) |
+| Recall         | ![](Outputs\Comparison_Plots\recall_comparison.png) |
+| Accuracy       | ![](Outputs\Comparison_Plots\accuracy_comparison.png) |
+
+---
+
+### 📊 Confusion Matrices
+
+| Encoding Type | Plot |
+|---------------|------|
+| Binary        | ![](Outputs\Confusion_Matrices\binary_encoding_model_confusion_matrix.png) |
+| One-Hot       | ![](Outputs\Confusion_Matrices\onehot_encoding_model_confusion_matrix.png) |
+| Label         | ![](Outputs\Confusion_Matrices\label_encoding_model_confusion_matrix.png) |
+| Mixed         | ![](Outputs\Confusion_Matrices\mix_encoding_model_confusion_matrix.png) |
 
 ### 📊 Performance Metrics
 
@@ -129,6 +148,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
