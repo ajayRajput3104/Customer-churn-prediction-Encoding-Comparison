@@ -86,12 +86,12 @@ To evaluate how different encoding methods affect the predictive performance of 
 
 ### 📌 Bar Graphs for Encoding Comparison 
 
-| Metric         | Plot |
-|----------------|------|
-| F1 Score       | ![](Outputs/Comparison_Plots/f1_score_comparison.png) |
-| Precision      | ![](Outputs/Comparison_Plots/precision_comparison.png) |
-| Recall         | ![](Outputs/Comparison_Plots/recall_comparison.png) |
-| Accuracy       | ![](Outputs/Comparison_Plots/accuracy_comparison.png) |
+| Metric     | Plot |
+|------------|------|
+| F1 Score   | ![F1](Outputs/Comparison_Plots/f1_score_comparison.png) |
+| Precision  | ![Precision](Outputs/Comparison_Plots/precision_comparison.png) |
+| Recall     | ![Recall](Outputs/Comparison_Plots/recall_comparison.png) |
+| Accuracy   | ![Accuracy](Outputs/Comparison Plots/accuracy_comparison.png) |
 
 ---
 
@@ -99,10 +99,10 @@ To evaluate how different encoding methods affect the predictive performance of 
 
 | Encoding Type | Plot |
 |---------------|------|
-| Binary        | ![](Outputs/Confusion_Matrices/binary_encoding_model_confusion_matrix.png) |
-| One-Hot       | ![](Outputs/Confusion_Matrices/onehot_encoding_model_confusion_matrix.png) |
-| Label         | ![](Outputs/Confusion_Matrices/label_encoding_model_confusion_matrix.png) |
-| Mixed         | ![](Outputs/Confusion_Matrices/mix_encoding_model_confusion_matrix.png) |
+| Binary        | ![Binary](Outputs/Confusion_Matrices/binary_encoding_model_confusion_matrix.png) |
+| One-Hot       | ![One-Hot](Outputs/Confusion_Matrices/onehot_encoding_model_confusion_matrix.png) |
+| Label         | ![Label](Outputs/Confusion_Matrices/label_encoding_model_confusion_matrix.png) |
+| Mixed         | ![Mixed](Outputs/Confusion_Matrices/mix_encoding_model_confusion_matrix.png) 
 
 ---
 ## 🛠️ How to Run
@@ -132,6 +132,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
