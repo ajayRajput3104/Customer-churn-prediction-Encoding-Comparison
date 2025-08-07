@@ -89,7 +89,7 @@ To evaluate how different encoding methods affect the predictive performance of 
 | Metric     | Plot |
 |------------|------|
 | F1 Score   | ![F1](Outputs/Comparison_Plots/f1_score_comparison.png) |
-| Precision  | ![Precision](OuOutputs/Comparison_Plots/precision_comparison.png) |
+| Precision  | ![Precision](Outputs/Comparison_Plots/precision_comparison.png) |
 | Recall     | ![Recall](Outputs/Comparison_Plots/recall_comparison.png) |
 | Accuracy   | ![Accuracy](Outputs/Comparison_Plots/accuracy_comparison.png) |
 
@@ -132,6 +132,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
