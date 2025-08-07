@@ -104,22 +104,6 @@ To evaluate how different encoding methods affect the predictive performance of 
 | Label         | ![](Outputs/Confusion_Matrices/label_encoding_model_confusion_matrix.png) |
 | Mixed         | ![](Outputs/Confusion_Matrices/mix_encoding_model_confusion_matrix.png) |
 
-### 📊 Performance Metrics
-
-Located in: `outputs/performance_plots/`
-- F1 Score comparison bar graph
-- Precision comparison bar graph
-- Recall comparison bar graph
-- Accuracy comparison bar graph
-
-### 🔲 Confusion Matrices
-
-Located in: `outputs/confusion_matrices/`
-- Binary Encoding
-- Label Encoding
-- One-Hot Encoding
-- Mixed Encoding
-
 ---
 ## 🛠️ How to Run
 
@@ -148,6 +132,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
