@@ -16,9 +16,7 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 └── README.md # This file
 ```
 
-```yaml
-
-
+```
 ---
 
 ## 📊 Dataset Overview
@@ -132,5 +130,6 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
