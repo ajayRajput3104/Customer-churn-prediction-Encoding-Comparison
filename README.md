@@ -5,7 +5,7 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 ---
 
 ## 📁 Project Structure
-
+```
 .
 ├── Telco_Customer_Churn.ipynb # Main notebook with code, EDA, model training & evaluation
 ├── data/
@@ -14,6 +14,7 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 │ ├── performance_plots/ # Bar plots comparing precision, recall, f1, accuracy
 │ └── confusion_matrices/ # Confusion matrices for each model
 └── README.md # This file
+```
 
 ```yaml
 
@@ -131,4 +132,5 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
