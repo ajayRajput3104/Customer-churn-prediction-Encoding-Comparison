@@ -6,13 +6,14 @@ This project analyzes the Telco Customer Churn dataset to predict whether a cust
 
 ## 📁 Project Structure
 ```
-.
-├── Telco_Customer_Churn.ipynb # Main notebook with code, EDA, model training & evaluation
+│
+├── Telco_Customer_Churn.ipynb                # Main notebook with code, EDA, model training & evaluation
 ├── data/
-│ └── WA_Fn-UseC_-Telco-Customer-Churn.csv # Original dataset
+│ └── WA_Fn-UseC_-Telco-Customer-Churn.csv    # Original dataset from Kaggle
 ├── outputs/
-│ ├── performance_plots/ # Bar plots comparing precision, recall, f1, accuracy
-│ └── confusion_matrices/ # Confusion matrices for each model
+│ ├── Comparison Plots/                       # Bar plots comparing precision, recall, f1, accuracy
+│ ├── Confusion Matrices/                     # Confusion matrices for each model
+│ └── Models/                                 # All trained model saved as .json
 └── README.md # This file
 ```
 
@@ -128,6 +129,7 @@ jupyter notebook Telco_Customer_Churn.ipynb
 
 📬 Contact
 For queries or collaborations, reach out via GitHub Issues or ping me on LinkedIn.
+
 
 
 
